@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: market-lens-openbb
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: MARKET_LENS_API_KEY
+        generateValue: true
+      - key: OANDA_ENVIRONMENT
+        value: practice

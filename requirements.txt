@@ -1,0 +1,7 @@
+fastapi==0.143.2
+uvicorn==0.54.0
+httpx[socks]==0.28.1
+openbb-core==2.0.1
+openbb-yfinance==2.0.0
+openbb-fred==2.0.0
+openbb-federal-reserve==2.0.0
